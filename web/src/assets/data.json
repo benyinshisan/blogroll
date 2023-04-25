@@ -100,6 +100,16 @@
     "pubDateYYMMDD": "2023-02-17"
   },
   {
+    "name": "Angels-D",
+    "xmlUrl": "https://angels-d.github.io/atom.xml",
+    "htmlUrl": "https://angels-d.github.io/",
+    "title": "鲲鹏计算使用体验",
+    "link": "https://angels-d.github.io/2022/05/31/kun-peng-ji-suan-shi-yong-ti-yan-zong-jie/",
+    "summary": "<a href=\"#鲲鹏计算使用体验\" class=\"headerlink\"",
+    "pubDate": "2023-01-05T12:09:20.770Z",
+    "pubDateYYMMDD": "2023-01-05"
+  },
+  {
     "name": "Bearyuc's Note",
     "xmlUrl": "https://rsshub.benyinshisan.cf/hexo/next/bearyuc.cn",
     "htmlUrl": "https://bearyuc.cn/",
@@ -208,6 +218,16 @@
     "summary": "小站运行两年了",
     "pubDate": "2022-07-15T10:22:35.000Z",
     "pubDateYYMMDD": "2022-07-15"
+  },
+  {
+    "name": "Angels-D",
+    "xmlUrl": "https://angels-d.github.io/atom.xml",
+    "htmlUrl": "https://angels-d.github.io/",
+    "title": "校友管理系统（面向对象课程设计）",
+    "link": "https://angels-d.github.io/2021/07/08/xiao-you-guan-li-xi-tong-mian-xiang-dui-xiang-ke-cheng-she-ji/",
+    "summary": "校友管理系统（面向对象课程设计）<a",
+    "pubDate": "2022-05-31T06:32:53.033Z",
+    "pubDateYYMMDD": "2022-05-31"
   },
   {
     "name": "TomyJan's BLOG",
@@ -378,25 +398,5 @@
     "summary": "安卓抓包工具HttpCanary安装教程",
     "pubDate": "2022-01-03T13:28:39.000Z",
     "pubDateYYMMDD": "2022-01-03"
-  },
-  {
-    "name": "琅時壹",
-    "xmlUrl": "https://rsshub.benyinshisan.cf/csdn/blog/qq_62852431",
-    "htmlUrl": "https://blog.csdn.net/qq_62852431",
-    "title": "指针，数据存储与调试《一探内存究竟》",
-    "link": "https://blog.csdn.net/qq_62852431/article/details/121583988",
-    "summary": "有关内存         文章目录  有关内存前言一、指针初阶1.指针大小2.指针类型解引用 *    3.野指针1.成因1.未初始化2.越界3.指针指向的空间释放规避局部地址检查有效性            ...",
-    "pubDate": "2021-11-27T16:05:50.000Z",
-    "pubDateYYMMDD": "2021-11-27"
-  },
-  {
-    "name": "琅時壹",
-    "xmlUrl": "https://rsshub.benyinshisan.cf/csdn/blog/qq_62852431",
-    "htmlUrl": "https://blog.csdn.net/qq_62852431",
-    "title": "初学C语言《扫雷》",
-    "link": "https://blog.csdn.net/qq_62852431/article/details/121320539",
-    "summary": "扫雷 简单的可控化扫雷      文章目录  扫雷分析一，头文件二、主函数1.testmenu    2， game   二、game.c1.初始化2.打印3.布置雷4.找雷.get_mine_count(mine, x, y)      代码整合\"主要是理解，明确思路，理清思路就是对所学知识的简单应用\"    分析 ...",
-    "pubDate": "2021-11-14T11:17:22.000Z",
-    "pubDateYYMMDD": "2021-11-14"
   }
 ]
