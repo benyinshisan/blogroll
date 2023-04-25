@@ -53,14 +53,11 @@ const dataJson = [];
       
       // 读取 RSS 的具体内容
       //const feed = await parser.parseURL(lineJson.xmlUrl);
-      console.log("1")
       const feed = await feedreader.extract(lineJson.xmlUrl);
-      console.log("2")
       
       // 数组合并
       dataJson.push.apply(dataJson, feed.entries.filter((item) => item.title && item.description && item.published).map((item) => {
         const pubDate = new Date(item.published);
-        console.log(pubDate)
         return {
           name: lineJson.title,
           xmlUrl: lineJson.xmlUrl,
@@ -72,7 +69,6 @@ const dataJson = [];
           pubDateYYMMDD: pubDate.toISOString().split('T')[0]
         }
       }));
-      console.log("3")
       
     } catch (err) {
 
@@ -93,7 +89,6 @@ const dataJson = [];
   fs.writeFileSync(dataJsonPath, JSON.stringify(dataJsonSliced, null, 2), { encoding: 'utf-8' });
   
   // 生成 RSS 文件
-  console.log(dataJson[0].pubDate)
   var feed = new RSS({
     title: 'LUT-KP Blogroll',
     description: '兰州理工大学鲲鹏展翅博客活动',
