@@ -8,6 +8,7 @@
     "preview": "cd web && vite preview --port 5050"
   },
   "dependencies": {
+    "@extractus/feed-extractor": "^6.2.1",
     "rss": "^1.2.2",
     "rss-parser": "^3.12.0",
     "vue": "^3.2.29"

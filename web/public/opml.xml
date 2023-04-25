@@ -4,14 +4,12 @@
   </head>
   <body>
 
-  <outline title="OrangeX4's Blog" xmlUrl="https://orangex4.cool/atom.xml" htmlUrl="https://orangex4.cool/" />
-  <outline title="Idealclover's Blog" xmlUrl="https://idealclover.top/feed" htmlUrl="https://idealclover.top/" />
-  <outline title="Typoverflow's Blog" xmlUrl="https://blog.typoverflow.me/index.php/feed/" htmlUrl="https://blog.typoverflow.me/" />
-  <outline title="Cmj's Blog" xmlUrl="https://blog.caomingjun.com/atom.xml" htmlUrl="https://blog.caomingjun.com/" />
-  <outline title="Mexii's Blog" xmlUrl="https://blog.mexii.one/atom.xml" htmlUrl="https://blog.mexii.one/" />
-  <outline title="LadderOperator's Blog" xmlUrl="https://ladderoperator.top/index.xml" htmlUrl="https://ladderoperator.top" />
-  <outline title="Antares's Blog" xmlUrl="https://chr.fan/feed" htmlUrl="https://chr.fan" />
-  <outline title="lyc8503's Blog" xmlUrl="https://blog.lyc8503.site/atom.xml" htmlUrl="https://blog.lyc8503.site/" />
+  <outline title="Angels-D" xmlUrl="https://angels-d.github.io/atom.xml" htmlUrl="https://angels-d.github.io/" />
+  <outline title="benyinshisan's Blog" xmlUrl="https://rsshub.benyinshisan.cf/hexo/next/benyinshisan.cf" htmlUrl="https://benyinshisan.cf/" />
+  <outline title="Bearyuc's Note" xmlUrl="https://rsshub.benyinshisan.cf/hexo/next/bearyuc.cn" htmlUrl="https://bearyuc.cn/" />
+  <outline title="琅時壹" xmlUrl="https://rsshub.benyinshisan.cf/csdn/blog/qq_62852431" htmlUrl="https://blog.csdn.net/qq_62852431" />
+  <outline title="SYH" xmlUrl="https://rsshub.benyinshisan.cf/hexo/next/syh521.cn" htmlUrl="http://syh521.cn/" />
+  <outline title="TomyJan's BLOG" xmlUrl="https://rsshub.benyinshisan.cf/blogs/wordpress/blog.tomys.top" htmlUrl="https://blog.tomys.top/" />
 
   </body>
 </opml>

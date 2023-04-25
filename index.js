@@ -6,6 +6,9 @@ const parser = new Parser();
 // 引入 RSS 生成器
 const RSS = require('rss');
 
+//引入新的RSS解析包
+const feedreader = require('@extractus/feed-extractor');
+
 // 相关配置
 const opmlXmlContentTitle = 'NJU-LUG Blogroll';
 const readmeMdPath = './README.md';
@@ -37,34 +40,39 @@ const opmlXmlContent = opmlXmlContentOp
   + opmlXmlContentEd;
 fs.writeFileSync(opmlXmlPath, opmlXmlContent, { encoding: 'utf-8' });
 
+const dataJson = [];
 // 异步处理
 (async () => {
   
   // 用于存储各项数据
-  const dataJson = [];
+  
   
   for (const lineJson of opmlJson) {
     
     try {
       
       // 读取 RSS 的具体内容
-      const feed = await parser.parseURL(lineJson.xmlUrl);
+      //const feed = await parser.parseURL(lineJson.xmlUrl);
+      console.log("1")
+      const feed = await feedreader.extract(lineJson.xmlUrl);
+      console.log("2")
       
       // 数组合并
-      dataJson.push.apply(dataJson, feed.items.filter((item) => item.title && item.content && item.pubDate).map((item) => {
-        const pubDate = new Date(item.pubDate);
+      dataJson.push.apply(dataJson, feed.entries.filter((item) => item.title && item.description && item.published).map((item) => {
+        const pubDate = new Date(item.published);
+        console.log(pubDate)
         return {
           name: lineJson.title,
           xmlUrl: lineJson.xmlUrl,
           htmlUrl: lineJson.htmlUrl,
           title: item.title,
           link: item.link,
-          // summary: item.summary ? item.summary : item.content,
-          summary: " " ,
+          summary: item.description ,
           pubDate: pubDate,
           pubDateYYMMDD: pubDate.toISOString().split('T')[0]
         }
       }));
+      console.log("3")
       
     } catch (err) {
 
@@ -85,16 +93,17 @@ fs.writeFileSync(opmlXmlPath, opmlXmlContent, { encoding: 'utf-8' });
   fs.writeFileSync(dataJsonPath, JSON.stringify(dataJsonSliced, null, 2), { encoding: 'utf-8' });
   
   // 生成 RSS 文件
+  console.log(dataJson[0].pubDate)
   var feed = new RSS({
-    title: 'NJU-LUG Blogroll',
-    description: '南京大学 Linux User Group 收集同学和校友们的 Blog',
-    feed_url: 'https://blogroll.njulug.org/rss.xml',
-    site_url: 'https://blogroll.njulug.org/',
-    image_url: 'https://blogroll.njulug.org/assets/logo.56c0d74c.png',
-    docs: 'https://blogroll.njulug.org/',
-    managingEditor: 'NJU-LUG',
-    webMaster: 'NJU-LUG',
-    copyright: '2022 NJU-LUG',
+    title: 'LUT-KP Blogroll',
+    description: '兰州理工大学鲲鹏展翅博客活动',
+    feed_url: 'https://kp.benyinshisan.cf/rss.xml',
+    site_url: 'https://kp.benyinshisan.cf/',
+    image_url: 'https://kp.benyinshisan.cf/assets/logo.56c0d74c.png',
+    docs: 'https://kp.benyinshisan.cf/',
+    managingEditor: 'LUT-KP',
+    webMaster: 'LUT-KP',
+    copyright: '2023 LUT-KP',
     language: 'cn',
     pubDate: dataJson[0].pubDate,
     ttl: '60',
