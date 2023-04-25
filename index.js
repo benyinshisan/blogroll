@@ -60,7 +60,7 @@ fs.writeFileSync(opmlXmlPath, opmlXmlContent, { encoding: 'utf-8' });
           title: item.title,
           link: item.link,
           // summary: item.summary ? item.summary : item.content,
-          summary: " "
+          summary: " " ,
           pubDate: pubDate,
           pubDateYYMMDD: pubDate.toISOString().split('T')[0]
         }
