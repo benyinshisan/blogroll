@@ -43,8 +43,9 @@ jobs:
       - run: npm i # 执行 Blogroll 的依赖安装
       - run: npm run gen # 相当于 node index.js，生成 opml.xml，opml.json 和 data.json
       - run: npm run build
-      - name: Deploy to Cloudflare Workers
-        uses: cloudflare/wrangler-action@1.1.0
-        with:
-          apiToken: ${{ secrets.CF_WORKERS_TOKEN }} # 前一步设置的 Secrets 的名称
-          # Wrangler Action 也支持使用传统的 Global API Token + Email 的鉴权方式，但不推荐
+      - name: Pull Vercel Environment Information
+        run: vercel pull --yes --environment=preview --token=${{ secrets.VERCEL_TOKEN }}
+      - name: Build Project Artifacts
+        run: vercel build --token=${{ secrets.VERCEL_TOKEN }}
+      - name: Deploy Project Artifacts to Vercel
+        run: vercel deploy --prebuilt --token=${{ secrets.VERCEL_TOKEN }}
