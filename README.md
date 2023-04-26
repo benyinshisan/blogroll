@@ -18,18 +18,18 @@ Pull Request 规范：标题为自己的名字，内容可以是对自己和博�
 | Name | RSS | HTML |
 | --   | --  | --   |
 | Angels-D | https://angels-d.github.io/atom.xml | https://angels-d.github.io/ |
-| benyinshisan's Blog | https://rsshub.benyinshisan.cf/hexo/next/benyinshisan.cf | https://benyinshisan.cf/ |
-| Bearyuc's Note | https://rsshub.benyinshisan.cf/hexo/next/bearyuc.cn | https://bearyuc.cn/ |
-| 琅時壹 | https://rsshub.benyinshisan.cf/csdn/blog/qq_62852431 | https://blog.csdn.net/qq_62852431 |
-| SYH | https://rsshub.benyinshisan.cf/hexo/next/syh521.cn | http://syh521.cn/ |
-| TomyJan's BLOG | https://rsshub.benyinshisan.cf/blogs/wordpress/blog.tomys.top | https://blog.tomys.top/ |
+| benyinshisan's Blog | http://rsshub.honne13.com/hexo/next/benyinshisan.cf?code=d3a66774f129bc86a9255288fde0d5a4 | https://benyinshisan.cf/ |
+| Bearyuc's Note | http://rsshub.honne13.com/hexo/next/bearyuc.cn?code=3c98f4f442e1ba77807a5463a8d89b75 | https://bearyuc.cn/ |
+| 琅時壹 | http://rsshub.honne13.com/csdn/blog/qq_62852431?code=6bc2094bfd2e791864c82b7ee2930e91 | https://blog.csdn.net/qq_62852431 |
+| SYH | http://rsshub.honne13.com/hexo/next/syh521.cn?code=b8c00029b9f45eaeb94374ce39622069 | http://syh521.cn/ |
+| TomyJan's BLOG | https://blog.tomys.top/feed/ | https://blog.tomys.top/ |
 | 不凉少年 | --- | https://www.cnblogs.com/fpgboy |
 
 
 
 ## OPML
 
-`opml.xml` 地址：https://blogroll.njulug.org/opml.xml
+`opml.xml` 地址：https://kp.benyinshisan.cf/opml.xml
 
 你可以使用 `opml.xml` 文件在 Inoreader 里持续订阅，或在 Feedly 下载之后导入。
 
