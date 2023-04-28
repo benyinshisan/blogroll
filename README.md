@@ -24,6 +24,7 @@ Pull Request 规范：标题为自己的名字，内容可以是对自己和博�
 | SYH | http://rsshub.honne13.com/hexo/next/syh521.cn?code=b8c00029b9f45eaeb94374ce39622069 | http://syh521.cn/ |
 | TomyJan's BLOG | https://blog.tomys.top/feed/ | https://blog.tomys.top/ |
 | 不凉少年 | --- | https://www.cnblogs.com/fpgboy |
+| Yammer | https://www.ylq1104.cn/atom.xml | https://www.ylq1104.cn |
 
 
 
