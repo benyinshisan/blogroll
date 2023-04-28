@@ -23,7 +23,7 @@ Pull Request 规范：标题为自己的名字，内容可以是对自己和博�
 | 琅時壹 | http://rsshub.honne13.com/csdn/blog/qq_62852431?code=6bc2094bfd2e791864c82b7ee2930e91 | https://blog.csdn.net/qq_62852431 |
 | SYH | http://rsshub.honne13.com/hexo/next/syh521.cn?code=b8c00029b9f45eaeb94374ce39622069 | http://syh521.cn/ |
 | TomyJan's BLOG | https://blog.tomys.top/feed/ | https://blog.tomys.top/ |
-| 不凉少年 | --- | https://www.cnblogs.com/fpgboy |
+| 不凉少年 | https://www.cnblogs.com/fpgboy/rss | https://www.cnblogs.com/fpgboy |
 | Yammer | https://www.ylq1104.cn/atom.xml | https://www.ylq1104.cn |
 
 
