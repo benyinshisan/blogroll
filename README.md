@@ -25,6 +25,9 @@ Pull Request 规范：标题为自己的名字，内容可以是对自己和博�
 | TomyJan's BLOG | https://blog.tomys.top/feed/ | https://blog.tomys.top/ |
 | 不凉少年 | https://www.cnblogs.com/fpgboy/rss | https://www.cnblogs.com/fpgboy |
 | Yammer | https://www.ylq1104.cn/atom.xml | https://www.ylq1104.cn |
+| wcbing | https://wcbing.top/atom.xml | https://wcbing.top/ |
+
+
 
 
 
