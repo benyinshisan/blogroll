@@ -18,7 +18,7 @@ Pull Request 规范：标题为自己的名字，内容可以是对自己和博�
 | Name | RSS | HTML |
 | --   | --  | --   |
 | Angels-D | https://angels-d.github.io/atom.xml | https://angels-d.github.io/ |
-| benyinshisan's Blog | http://rsshub.honne13.com/hexo/next/benyinshisan.cf?code=d3a66774f129bc86a9255288fde0d5a4 | https://benyinshisan.cf/ |
+| benyinshisan's Blog | https://blog.honne13.com/atom.xml | https://blog.honne13.com/ |
 | Bearyuc's Note | http://rsshub.honne13.com/hexo/next/bearyuc.cn?code=3c98f4f442e1ba77807a5463a8d89b75 | https://bearyuc.cn/ |
 | 琅時壹 | https://blog.csdn.net/qq_62852431/rss/list | https://blog.csdn.net/qq_62852431 |
 | SYH | https://syh521.cn/atom.xml | https://syh521.cn/ |
