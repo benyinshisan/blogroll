@@ -27,6 +27,8 @@ Pull Request 规范：标题为自己的名字，内容可以是对自己和博�
 | Yammer | https://www.ylq1104.cn/atom.xml | https://www.ylq1104.cn |
 | wcbing | https://wcbing.top/atom.xml | https://wcbing.top/ |
 | 粉头老爷爷 | https://www.cnblogs.com/hinima/rss | https://www.cnblogs.com/hinima/ |
+| Githup | http://rsshub.honne13.com/zhihu/posts/people/dian-yi-13-50?code=a331ca7ebba896486c3c34ac626e4588 | https://www.zhihu.com/people/dian-yi-13-50/posts |
+| 飞得更高 | https://blog.csdn.net/qq_63802547/rss/list | https://blog.csdn.net/qq_63802547?type=blog |
 
 
 
